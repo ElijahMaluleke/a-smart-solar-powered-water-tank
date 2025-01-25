@@ -11,7 +11,7 @@
 #include <zephyr/drivers/gpio.h>
 #include <zephyr/logging/log.h>
 #include <stdio.h>
-#include "vibration_motor.h"
+#include "water_valves.h"
 
 #define VM_DEVICE_GPIO0 DT_NODELABEL(gpio0)
 #define VM_DEVICE_GPIO1 DT_NODELABEL(gpio1)

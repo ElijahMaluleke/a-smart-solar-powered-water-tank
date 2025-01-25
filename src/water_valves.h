@@ -3,8 +3,8 @@
  *
  * SPDX-License-Identifier: Apache-2.0
  ********************************************************************************/
-#ifndef VIBRATION_MOTOR_H 
-#define VIBRATION_MOTOR_H
+#ifndef WATER_VALVES_H 
+#define WATER_VALVES_H
 
 #ifdef __cplusplus
 extern "C" {

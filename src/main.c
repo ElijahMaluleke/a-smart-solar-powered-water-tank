@@ -18,7 +18,7 @@
 #include <errno.h>
 #include <stdio.h>
 #include <nrfx_saadc.h>
-#include "vibration_motor.h"
+#include "water_valves.h"
 
 /********************************************************************************
  * The synchronization demo has two threads that utilize semaphores and sleeping
@@ -35,7 +35,7 @@
 #define PRIORITY 														7
 
 /* delay between greetings (in ms) */
-#define SLEEPTIME 500
+#define SLEEPTIME  							 						500
 /* 2200 msec = 2.2 sec */
 #define PRODUCER_SLEEP_TIME_MS 							2200
 
@@ -87,7 +87,7 @@
 #define SLEEP_TIME_HALF_S										500
 #define SLEEP_TIME_QUOTA_S									250
 
-#define  ULTRASONIC_SENSOR									0x80
+#define ULTRASONIC_SENSOR									0x80
 
 /* Option 1: by node label */
 #define DEVICE_GPIO0 												DT_NODELABEL(gpio0)
